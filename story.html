@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+<title>Things needed</title>
+<meta charset="utf-8">
+<meta name="view port"content="width=device-width,initial-scale=1">
+<style>
+*{
+box-sizing: border-box;
+}
+body{
+font-family: Tempus Sans ITC;
+}
+/*style of header*/
+header{
+background-color:skyblue;
+padding:30px;
+text-align:center;
+font-size:35px;
+color: white;
+}
+/*create two columns/boxes that floats next to each other*/
+nav{
+   float: left;
+   width:30%;
+   height:300px; /*only for demonstration,should be removed */
+   backgroud: #ccc;
+   padding: 20px;
+}
+/*Style the list inside the menu */
+nav ul{
+list -style-type: none;
+padding: 0;
+}
+article{
+float: left;
+padding: 20px;
+width: 70%;
+background-color: #f1f1f1;
+height: 300px;
+}
+/* clear float after column*/
+section:after{
+content:"";
+display:table;
+clear: both;
+}
+/*style the footer*/
+footer{
+background-color: #777;
+padding: 10px;
+text-align: center;
+color: white;
+}
+/*Responsive layout - makes the two columns/boxes stack on topof each other instead of next to each other,on small screens*/
+@media(max=width: 600px){
+nav,article{
+width: 100%;
+height: auto;
+}
+}
+</style>
+</head>
+<body>
+<h2>FACT</h2>
+<p>So, as we meet on 5th of November and I just wanted that time a trustworthy friend who atleast stay with me because that time I was in a typical condition.</p>
+<p>And at starting as you were busy because of your Mumbai trip with your friends, I thought that you don't want to interact with me much</p>
+<p> Zzzz but that day when I decided to remove from friend list that day only your message <mark>blicked</mark> that you went with your friends that's why you were unable to communicate </p>
+<p>and after that <mark>WOW</mark> some good memories got added to my daily routine hahahaha I can't forget ever to my life. </p>
+<header>
+<h2>WANT</h2>
+</header>
+<section>
+<nav>
+   <ul>
+<li><a href="#">Club </a></li>
+<li><a href="#">Hukka</a></li>
+<li><a href="#">Drink-full talli wala</a></li>
+</ul>
+</nav>
+<article>
+<h1>According to the deal</h1>
+<p>I want try some of the things first time with you because I trust.</p>
+<p>And you only said that try these things with whom you trust.</p> 
+</article>
+</section>
+<footer>
+<p>Nameste</p>
+</footer>
+</body>
+</html>
